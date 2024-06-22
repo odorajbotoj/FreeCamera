@@ -1,0 +1,6 @@
+# build output
+build/
+src_out/
+
+# npm packages
+node_modules/

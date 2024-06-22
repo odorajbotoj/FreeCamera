@@ -1,0 +1,51 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "Your behavior pack description",
+        "name": "Your Behavior Pack Name",
+        "uuid": "A NEW UUID",
+        "version": [
+            1,
+            0,
+            0
+        ],
+        "min_engine_version": [
+            1,
+            21,
+            0
+        ]
+    },
+    "modules": [
+        {
+            "description": "description",
+            "type": "script",
+            "language": "javascript",
+            "entry": "scripts/main.js",
+            "uuid": "A NEW UUID",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        }
+    ],
+    "dependencies": [
+        {
+            "module_name": "@minecraft/server",
+            "version": "1.11.0"
+        }
+    ],
+    "metadata": {
+        "authors": [
+            "Your name"
+        ],
+        "license": "The license of the pack",
+        "url": "The home website of your pack",
+        "product_type": "addon",
+        "generated_with": {
+            "mcbe-sapi-ts-template": [
+                "1.0.1"
+            ]
+        }
+    }
+}

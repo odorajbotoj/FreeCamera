@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "moduleResolution": "Node",
+    "module": "ES2020",
+    "declaration": false,
+    "noLib": false,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "sourceMap": false,
+    "pretty": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "allowJs": true,
+    "allowUnreachableCode": true,
+    "allowUnusedLabels": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": false,
+    "noImplicitUseStrict": false,
+    "outDir": "src_out/",
+    "rootDir": ".",
+    "listFiles": false,
+    "noEmitHelpers": true,
+    "skipLibCheck": true,
+    "checkJs": true,
+  },
+  "include": [
+    "scripts/**/*"
+  ],
+  "exclude": [
+    "build",
+    "node_modules",
+    "tools"
+  ],
+  "compileOnSave": false
+}
