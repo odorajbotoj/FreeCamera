@@ -1,17 +1,9 @@
 {
-  "name": "mcbe-sapi-ts-template",
-  "version": "1.0.1",
-  "description": "MinecraftBE ScriptAPI Typescript project template",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/odorajbotoj/mcbe-sapi-ts-template.git"
-  },
+  "name": "freecamera",
+  "version": "1.0.0",
+  "description": "MinecraftBE ScriptAPI FreeCamera",
   "author": "odorajbotoj",
-  "license": "CC0-1.0",
-  "bugs": {
-    "url": "https://github.com/odorajbotoj/mcbe-sapi-ts-template/issues"
-  },
-  "homepage": "https://github.com/odorajbotoj/mcbe-sapi-ts-template#readme",
+  "license": "MIT",
   "scripts": {
     "build": "tsc",
     "clean": "node tools/clean.js",

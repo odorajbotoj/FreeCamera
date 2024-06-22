@@ -1,9 +1,9 @@
 {
     "format_version": 2,
     "header": {
-        "description": "Your behavior pack description",
-        "name": "Your Behavior Pack Name",
-        "uuid": "A NEW UUID",
+        "description": "MinecraftBE ScriptAPI FreeCamera",
+        "name": "FreeCamera",
+        "uuid": "ba363367-5890-b98a-de75-d7eb93b73cc2",
         "version": [
             1,
             0,
@@ -17,11 +17,11 @@
     },
     "modules": [
         {
-            "description": "description",
+            "description": "MinecraftBE ScriptAPI FreeCamera (Main)",
             "type": "script",
             "language": "javascript",
             "entry": "scripts/main.js",
-            "uuid": "A NEW UUID",
+            "uuid": "fd51f1e1-6bdc-3fb9-c936-f847d80af1ed",
             "version": [
                 1,
                 0,
@@ -37,10 +37,10 @@
     ],
     "metadata": {
         "authors": [
-            "Your name"
+            "odorajbotoj"
         ],
-        "license": "The license of the pack",
-        "url": "The home website of your pack",
+        "license": "MIT",
+        "url": "https://github.com/odorajbotoj/FreeCamera",
         "product_type": "addon",
         "generated_with": {
             "mcbe-sapi-ts-template": [
