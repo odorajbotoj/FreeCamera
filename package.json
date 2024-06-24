@@ -1,9 +1,4 @@
 {
-  "name": "freecamera",
-  "version": "1.0.0",
-  "description": "MinecraftBE ScriptAPI FreeCamera",
-  "author": "odorajbotoj",
-  "license": "MIT",
   "scripts": {
     "build": "tsc",
     "clean": "node tools/clean.js",
