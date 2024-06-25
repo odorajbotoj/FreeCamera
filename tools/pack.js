@@ -9,7 +9,7 @@ fs.mkdirSync(`build/${NAME}/`, { recursive: true }, (err) => { if (err) throw er
 // copy files
 fs.cpSync(`behavior_pack/manifest.json`, `build/${NAME}/manifest.json`);
 fs.cpSync(`behavior_pack/pack_icon.png`, `build/${NAME}/pack_icon.png`);
-fs.cpSync(`src_out/`, `build/${NAME}/scripts/`, { recursive: true });
+fs.cpSync(`src_out/`, `build/${NAME}/`, { recursive: true });
 
 // archive
 const output = fs.createWriteStream(`build/${NAME}-bp.mcpack`);
