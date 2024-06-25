@@ -16,8 +16,5 @@ const output = fs.createWriteStream(`build/${NAME}-bp.mcpack`);
 const archive = archiver("zip");
 archive.on("error", (err) => { throw err; });
 archive.pipe(output);
-archive.directory(`build/${NAME}/`);
+archive.directory(`build/${NAME}/`, `${NAME}`);
 archive.finalize();
-
-// clean
-rimraf.rimrafSync(`build/${NAME}/`);

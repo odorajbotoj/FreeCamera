@@ -1,4 +1,5 @@
 {
+  "name": "freecamera",
   "scripts": {
     "build": "tsc",
     "clean": "node tools/clean.js",
