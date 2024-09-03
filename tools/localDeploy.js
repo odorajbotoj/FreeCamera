@@ -7,6 +7,5 @@ const DIR = `${process.env.LOCALAPPDATA}/Packages/Microsoft.MinecraftUWP_8wekyb3
 fs.mkdirSync(DIR, { recursive: true }, (err) => { if (err) throw err; });
 
 // copy files
-fs.cpSync(`behavior_pack/manifest.json`, `${DIR}/manifest.json`);
-fs.cpSync(`behavior_pack/pack_icon.png`, `${DIR}/pack_icon.png`);
+fs.cpSync(`behavior_pack/`, `${DIR}/`, { recursive: true });
 fs.cpSync(`src_out/`, `${DIR}/`, { recursive: true });
